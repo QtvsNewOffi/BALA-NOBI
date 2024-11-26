@@ -5,16 +5,16 @@ I ᴀᴍ Aᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ Pᴏᴡᴇʀғᴜʟʟ ᴍᴏᴠɪᴇ ᴘ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ 
 Jᴜsᴛ Aᴅᴅ Tᴏ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ Wɪᴛʜ Aᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴ I ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ Mᴏᴠɪᴇ Gʀᴏᴜᴘ😍
 
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Anand_2K'>𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐</a></b>"""
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Itsking_45'>𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐</a></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Anand_2K'>𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐</a></b>"""
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Itsking_45'>𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐</a></b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Anand_2K>𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐</a>
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/AR_linkz'>UPDATES</a> 
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Itsking_45>𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐</a>
+ ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/BCN_LINKZ'>UPDATES</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -23,7 +23,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
     SOURCE_TXT = """
 <b>Tʜɪꜱ Bᴏᴛ Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ᴘᴀɪᴅ .
-Cᴏɴᴛᴀᴄᴛ : <a href='https://t.me/Anand_2K'>𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐</a></b> 😎</b>"""
+Cᴏɴᴛᴀᴄᴛ : <a href='https://t.me/Itsking_45'>𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐</a></b> 😎</b>"""
 
 
 
@@ -77,7 +77,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : 𒆜 𝗔ɴᴀɴᴅ 𝟐𝐊 ࿐
 • ᴜꜱᴇʀɴᴀᴍᴇ : @Anand_2K
-• ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ : <a href='t.me/Anand_2K'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
+• ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ : <a href='t.me/Itsking_45'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
 
 
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
@@ -194,7 +194,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 🔆𝗥ᴇǫᴜᴇsᴛ 𝗚ʀᴏᴜᴘ:[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+-VlJFDkAQ4cyMjU1)
 🌟𝗠ᴏᴠɪᴇs 𝗖ʜᴀɴɴᴇʟ:[ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+uI9i-5DW5L8zM2Q1)
 •────•────────•────•
-⚙𝗔ᴅᴠɪsᴏʀ :[ᴀɴᴀɴᴅ 𝟐𝐊࿐](https://t.me/Anand_2K)
+⚙𝗔ᴅᴠɪsᴏʀ :[ᴀɴᴀɴᴅ 𝟐𝐊࿐](https://t.me/Itsking_45)
 😎 நன்றி தலைவரே  🙏🏻
 💝2k21 to 2k25 💝</b>""" 
 
