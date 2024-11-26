@@ -427,7 +427,7 @@ BOT WORKING PROPERLY"""
 
  படி 2: உங்கள் இணையதளம் மற்றும் API ஐச் சேர்க்கவும்
 
- Exp: /shortlink krownlinks.com 4b392f8eb6ad711fbe58
+ Exp: /shortlink gyanilinks.com 3efea6fe502d3390fed123f270e0fe5498df033d
 
  வீடியோவைச் சேர்க்கவும்
 
@@ -454,7 +454,7 @@ Hey {}
 
  Step 2: Add your website and API
 
- Exp: /shortlink krownlinks.com 4b392f8eb6ad711fbe58
+ Exp: /shortlink gyanilinks.com 3efea6fe502d3390fed123f270e0fe5498df033d
 
  Add a video
 
@@ -481,7 +481,7 @@ Also your tutorial will be Added Your Group..."""
 
  దశ 2: మీ వెబ్‌సైట్ మరియు APIని జోడించండి
 
- గడువు: /shortlink krownlinks.com 4b392f8eb6ad711fbe58
+ గడువు: /shortlink gyanilinks.com 3efea6fe502d3390fed123f270e0fe5498df033d
 
  వీడియోను జోడించండి
 
@@ -508,7 +508,7 @@ Also your tutorial will be Added Your Group..."""
 
  चरण 2: अपनी वेबसाइट और एपीआई जोड़ें
 
- एक्सप: /शॉर्टलिंक krownlinks.com 4b392f8eb6ad711fbe58
+ एक्सप: /शॉर्टलिंक gyanilinks.com 3efea6fe502d3390fed123f270e0fe5498df033d
 
  एक वीडियो जोड़ें
 
@@ -535,7 +535,7 @@ Also your tutorial will be Added Your Group..."""
 
  ഘട്ടം 2: നിങ്ങളുടെ വെബ്‌സൈറ്റും API-യും ചേർക്കുക
 
- കാലഹരണപ്പെടൽ: /shortlink krownlinks.com 4b392f8eb6ad711fbe58
+ കാലഹരണപ്പെടൽ: /shortlink gyanilinks.com 3efea6fe502d3390fed123f270e0fe5498df033d
 
  ഒരു വീഡിയോ ചേർക്കുക
 
@@ -562,7 +562,7 @@ Also your tutorial will be Added Your Group..."""
 
  مرحلہ 2: اپنی ویب سائٹ اور API شامل کریں۔
 
- Exp: /shortlink krownlinks.com 4b392f8eb6ad711fbe58
+ Exp: /shortlink gyanilinks.com 4b392f8eb6ad711fbe58
 
  ایک ویڈیو شامل کریں۔
 
@@ -589,7 +589,7 @@ Also your tutorial will be Added Your Group..."""
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
- સમાપ્તિ: /shortlink krownlinks.com 4b392f8eb6ad711fbe58
+ સમાપ્તિ: /shortlink gyanilinks.com 3efea6fe502d3390fed123f270e0fe5498df033d
 
  વિડિઓ ઉમેરો
 
@@ -615,7 +615,7 @@ Also your tutorial will be Added Your Group..."""
 
  ಹಂತ 2: ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಮತ್ತು API ಸೇರಿಸಿ
 
- ಅವಧಿ: /shortlink krownlinks.com 4b392f8eb6ad711fbe58
+ ಅವಧಿ: /shortlink gyanilinks.com 3efea6fe502d3390fed123f270e0fe5498df033d
 
  ವೀಡಿಯೊ ಸೇರಿಸಿ
 
@@ -641,7 +641,7 @@ Also your tutorial will be Added Your Group..."""
 
  ধাপ 2: আপনার ওয়েবসাইট এবং API যোগ করুন
 
- মেয়াদ: /shortlink krownlinks.com 4b392f8eb6ad711fbe58
+ মেয়াদ: /shortlink gyanilinks.com 3efea6fe502d3390fed123f270e0fe5498df033d
 
  একটি ভিডিও যোগ করুন
 
