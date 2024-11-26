@@ -18,8 +18,8 @@ API_HASH = environ.get('API_HASH', 'ae5a5f660ffdf3e08997d493c32932f5')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6068679720:AAFchRPgj9Vb45gRvOFb66vmrpknip1mh5w")
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
-STREAM_API = (environ.get('STREAM_API', 'c85267c0cbf5768e243e55ba9617033baabe5400'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.com'))
+STREAM_API = (environ.get('STREAM_API', 'a54116650bd9b6aa1742579de6619fa4f9b79d7f'))
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002122060084'))
@@ -43,12 +43,12 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002131808231')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002124824105')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002021249374')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002031158702')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
@@ -61,10 +61,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Shortner Variables 
 VERIFY = bool(environ.get('VERIFY', False))
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/AR_linkz/10')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtodownloadbestie/13')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c85267c0cbf5768e243e55ba9617033baabe5400')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'a54116650bd9b6aa1742579de6619fa4f9b79d7f')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #others 
@@ -73,9 +73,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+-VlJFDkAQ4cyMjU1')
-CHNL_LNK = environ.get('CHNL_LNK', 'http://t.me/+uI9i-5DW5L8zM2Q1')
-WRM = environ.get('WRM', 'https://t.me/AR_linkz')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+wSMAovOIqANiNjRl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+8T7II0Ioa9BjOGM9')
+WRM = environ.get('WRM', 'https://t.me/BCN_LINKZ')
 MSG_ALRT = environ.get('MSG_ALRT', '💖 Hello Nanba and Nanbis 💖')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001857257903'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT')
