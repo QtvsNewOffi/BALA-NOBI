@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27335730'))
-API_HASH = environ.get('API_HASH', 'ae5a5f660ffdf3e08997d493c32932f5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6068679720:AAFchRPgj9Vb45gRvOFb66vmrpknip1mh5w")
+API_ID = int(environ.get('API_ID', '23578112'))
+API_HASH = environ.get('API_HASH', '75544e7e88b51442f91287d048e74199')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7481659812:AAHkeHjr_s8CNT75UhFyARVXMe69jd5lhmY")
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.com'))
@@ -39,7 +39,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 # Admins, Channels & Users
 USERNAME = environ.get("USERNAME", "https://t.me/Itsking_45")
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5937730372 ').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002021249374').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002124824105').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -54,8 +54,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Anantharamu:Anand15112003@cluster0.c0r1eic.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Anantharamu")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kingbala3605:ro45hitman@cluster0.sk309.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "kingbala3605")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 
@@ -73,7 +73,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+wSMAovOIqANiNjRl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+AUXjoKKQgTs5ZjBl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+8T7II0Ioa9BjOGM9')
 WRM = environ.get('WRM', 'https://t.me/BCN_LINKZ')
 MSG_ALRT = environ.get('MSG_ALRT', '💖 Hello Nanba and Nanbis 💖')
