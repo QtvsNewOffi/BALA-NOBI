@@ -22,6 +22,10 @@ import aiohttp
 from shortzy import Shortzy
 import http.client
 import json
+import pyrogram
+
+pyrogram.utils.MIN_CHAT_ID = -999999999999
+pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
