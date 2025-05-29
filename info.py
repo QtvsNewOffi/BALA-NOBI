@@ -15,11 +15,11 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23578112'))
 API_HASH = environ.get('API_HASH', '75544e7e88b51442f91287d048e74199')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7481659812:AAHkeHjr_s8CNT75UhFyARVXMe69jd5lhmY")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.com'))
-STREAM_API = (environ.get('STREAM_API', 'a54116650bd9b6aa1742579de6619fa4f9b79d7f'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'krownlinks.com'))
+STREAM_API = (environ.get('STREAM_API', '79a93b30efb412ec4256dcca5c15c6e100403154'))
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002122060084'))
@@ -61,10 +61,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Shortner Variables 
 VERIFY = bool(environ.get('VERIFY', False))
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtodownloadbestie/13')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtodownloadbestie')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'a54116650bd9b6aa1742579de6619fa4f9b79d7f')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'krownlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '79a93b30efb412ec4256dcca5c15c6e100403154')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #others 
