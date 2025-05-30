@@ -119,7 +119,7 @@ async def junk_clear_group(bot, message):
                 except Exception as e:
                     print(f"{e} > {group['id']}")  
         done += 1
-        if not done % 50:
+        if not done % 20:
             await sts.edit(f"in progress:\n\nTotal Groups {total_groups}\nCompleted: {done} / {total_groups}\nDeleted: {deleted}")    
     time_taken = datetime.timedelta(seconds=int(time.time()-start_time))
     await sts.delete()
@@ -131,4 +131,80 @@ async def junk_clear_group(bot, message):
         await message.reply_document('junk.txt', caption=f"Completed:\nCompleted in {time_taken} seconds.\n\nTotal Groups {total_groups}\nCompleted: {done} / {total_groups}\nDeleted: {deleted}")
         os.remove("junk.txt")
 
-            
+async def broadcast_messages_group(chat_id, message):
+    try:
+        await message.copy(chat_id=chat_id)
+        return True, "Succes", 'mm'
+    except FloodWait as e:
+        await asyncio.sleep(e.value)
+        return await broadcast_messages_group(chat_id, message)
+    except Exception as e:
+        await db.delete_chat(int(chat_id))       
+        logging.info(f"{chat_id} - PeerIdInvalid")
+        return False, "deleted", f'{e}\n\n'
+    
+async def junk_group(chat_id, message):
+    try:
+        kk = await message.copy(chat_id=chat_id)
+        await kk.delete(True)
+        return True, "Succes", 'mm'
+    except FloodWait as e:
+        await asyncio.sleep(e.value)
+        return await junk_group(chat_id, message)
+    except Exception as e:
+        await db.delete_chat(int(chat_id))       
+        logging.info(f"{chat_id} - PeerIdInvalid")
+        return False, "deleted", f'{e}\n\n'
+    
+
+async def clear_junk(user_id, message):
+    try:
+        key = await message.copy(chat_id=user_id)
+        await key.delete(True)
+        return True, "Success"
+    except FloodWait as e:
+        await asyncio.sleep(e.value)
+        return await clear_junk(user_id, message)
+    except InputUserDeactivated:
+        await db.delete_user(int(user_id))
+        logging.info(f"{user_id}-Removed from Database, since deleted account.")
+        return False, "Deleted"
+    except UserIsBlocked:
+        logging.info(f"{user_id} -Blocked the bot.")
+        return False, "Blocked"
+    except PeerIdInvalid:
+        await db.delete_user(int(user_id))
+        logging.info(f"{user_id} - PeerIdInvalid")
+        return False, "Error"
+    except Exception as e:
+        return False, "Error"
+
+async def broadcast_messages(user_id, message, reply_markup=None):
+    try:
+        await message.copy(chat_id=user_id,reply_markup=reply_markup)
+        return True, "Success"
+    except FloodWait as e:
+        await asyncio.sleep(e.value)
+        return await broadcast_messages(user_id, message,reply_markup=reply_markup)
+    except InputUserDeactivated:
+        await db.delete_user(int(user_id))
+        logging.info(f"{user_id}-Removed from Database, since deleted account.")
+        return False, "Deleted"
+    except UserIsBlocked:
+        logging.info(f"{user_id} -Blocked the bot.")
+        return False, "Blocked"
+    except PeerIdInvalid:
+        await db.delete_user(int(user_id))
+        logging.info(f"{user_id} - PeerIdInvalid")
+        return False, "Error"
+    except Exception as e:
+        return False, "Error"
+
+
+
+
+
+
+
+
+
