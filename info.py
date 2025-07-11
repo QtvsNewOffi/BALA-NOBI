@@ -130,11 +130,11 @@ if 'DYNO' in environ:
 
 else:
     ON_HEROKU = False
-HAS_SSL=bool(getenv('HAS_SSL',False))
+HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://bcn-linkz.faser23837.workers.dev/".format(FQDN)
+    URL = "https://cloudy-adena-havocvairam-958a759f.koyeb.app/".format(FQDN)
 else:
-    URL = "https://bcn-linkz.faser23837.workers.dev/".format(FQDN)
+    URL = "https://cloudy-adena-havocvairam-958a759f.koyeb.app/".format(FQDN)
 
 
 
