@@ -18,8 +18,8 @@ API_HASH = environ.get('API_HASH', '75544e7e88b51442f91287d048e74199')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'krownlinks.com'))
-STREAM_API = (environ.get('STREAM_API', '79a93b30efb412ec4256dcca5c15c6e100403154'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'arolinks.com'))
+STREAM_API = (environ.get('STREAM_API', '33257e7cd3a27f2604a76d27429ce89119573119'))
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002122060084'))
