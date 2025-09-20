@@ -63,8 +63,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 VERIFY = bool(environ.get('VERIFY', False))
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtodownloadbestie')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e597d5e0ec4e3034efe7d2c5daf27eb24ef05b18')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '33257e7cd3a27f2604a76d27429ce89119573119')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #others 
